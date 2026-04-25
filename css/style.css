@@ -1,0 +1,371 @@
+/* Homepage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    background-color: #F5F0E6;
+    color: #2E2E2E;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Main page container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header / Navigation */
+header {
+    padding: 30px 0;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2E2E2E;
+    font-size: 15px;
+}
+
+.contact-btn {
+    background-color: #C99AA0;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    padding: 40px 0 50px 0;
+}
+
+.hero h2 {
+    font-size: 65px;
+    line-height: 1.1;
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 27px;
+    color: #6a6a6a;
+    max-width: 900px;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    display: inline-block;
+    background-color: #C99AA0;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Large Image */
+.feature-image {
+    margin: 30px 0 90px 0;
+}
+
+.feature-image img {
+    width: 100%;
+    display: block;
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+/* Services */
+.services {
+    padding-bottom: 90px;
+}
+
+.service-grid {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex: 1;
+    min-width: 250px;
+}
+
+.service-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Testimonials */
+.testimonials {
+    padding-bottom: 90px;
+}
+
+.testimonial-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #D9C1BE;
+    padding: 30px;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 4px;
+}
+
+.testimonial-card p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.testimonial-card .client {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/* About / Stylist Section */
+/* About / Stylist Section */
+.about-section {
+    padding-bottom: 100px;
+}
+
+.about-section .about-grid {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.about-section .about-text {
+    width: 45%;
+}
+
+.about-section .about-text h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.about-section .about-text p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    max-width: 500px;
+}
+
+.about-section .about-image {
+    width: 55%;
+}
+
+.about-section .about-image img {
+    width: 100%;
+    max-width: 480px;
+    height: 620px;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+}
+
+/* Let's Chat button */
+.chat-btn {
+    display: inline-block;
+    background-color: #C99AA0;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Connect with Me box */
+.social-box {
+    background-color: #D9C1BE;
+    padding: 14px 18px;
+    border-radius: 4px;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.social-box p {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Contact Page */
+.contact-page {
+    padding: 60px 0;
+}
+
+.contact-page h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.contact-page p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    height: 150px;
+}
+
+/* Services Page */
+.services-page {
+    padding: 60px 0;
+}
+
+.services-page h2 {
+    margin-bottom: 20px;
+}
+
+.services-page p {
+    margin-bottom: 25px;
+}
+
+.service-details {
+    padding: 50px 0;
+}
+
+/* About Page */
+.about-page {
+    padding: 60px 0;
+}
+
+.about-page h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #C99AA0;
+    font-style: italic;
+}
+
+.brand-name {
+    letter-spacing: 1px;
+}
+
+.about-page .about-grid {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-page .about-text {
+    width: 50%;
+    text-align: center;
+}
+
+.about-page .about-text p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.about-page .about-image {
+    width: 50%;
+}
+
+.about-page .about-image img {
+    width: 100%;
+    max-width: 480px;
+    height: 580px;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+}
+
+.about-page .hero-btn {
+    display: inline-block;
+    background-color: #C99AA0;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
